@@ -3,7 +3,7 @@ import Container from "../shared/Container";
 import Paragraph from "../shared/Paragraph";
 import Title from "../shared/Title";
 
-const CTA = () => {
+const CallToAction = () => {
   return (
     <section className="pb-20 relative">
       <Container>
@@ -30,4 +30,4 @@ const CTA = () => {
     </section>
   );
 };
-export default CTA;
+export default CallToAction;
