@@ -20,7 +20,7 @@ const Brands = () => {
         <div className="flex flex-wrap items-center justify-center gap-4">
           {logos.map((logo, index) => (
             <div
-              className="p-4 sm:p-3 rounded-xl bg-body border border-box-border group"
+              className="p-4 sm:p-3 rounded-xl bg-body border border-box-border group border-gray-400 dark:border-gray-700"
               key={index}
             >
               <img

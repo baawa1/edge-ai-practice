@@ -4,11 +4,11 @@ import NavItem from "../shared/NavItem";
 import ButtonLink from "../shared/ButtonLink";
 import { useThemeStore } from "../../store/ThemeStore";
 
-const navItems = [
+export const navItems = [
   { name: "Home", path: "# " },
   { name: "Services", path: "#services" },
   { name: "About Us", path: "#about-us" },
-  { name: "Features", path: "#features" },
+  { name: "Pricing", path: "#pricing" },
   { name: "Blog", path: "#blog" },
   { name: "Contact", path: "#contact" },
 ];
@@ -27,8 +27,8 @@ const Navbar = () => {
             </div>
           </a>
           <ul className="flex gap-2 md:gap-3 flex-col md:flex-row items-center justify-center gap-y-4 md:gap-y-0">
-            {navItems.map(({ name, path }) => (
-              <NavItem name={name} path={path} />
+            {navItems.map(({ name, path }, index) => (
+              <NavItem name={name} path={path} key={index} />
             ))}
           </ul>
           <div className="flex items-center justify-center gap-x-2 md:gap-x-4">

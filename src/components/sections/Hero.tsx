@@ -30,7 +30,7 @@ const Hero = () => {
               <form
                 action=""
                 method="post"
-                className="py-1 pl-6 pr-1 flex gap-3 w-full items-center text-heading-3 shadow-lg shadow-box-shadow border border-box-border bg-box-bg rounded-full ease-linear focus-within:bg-body focus-within:border-primary"
+                className="py-1 pl-6 pr-1 flex gap-3 w-full items-center text-heading-3 shadow-lg shadow-box-shadow border border-box-border bg-box-bg rounded-full ease-linear focus-within:bg-body focus-within:border-primary border-gray-400 dark:border-gray-700"
               >
                 <span className="min-w-max pr-2 border-r border-box-border">
                   <svg

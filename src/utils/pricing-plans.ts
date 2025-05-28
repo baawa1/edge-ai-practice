@@ -1,0 +1,56 @@
+export const pricingPlans = [
+  {
+    title: "Basic",
+    price: "$19/month",
+    features: [
+      "Access to basic features",
+      "Email support",
+      "Community access",
+      "1 project",
+      "10 GB storage",
+    ],
+  },
+  {
+    title: "Pro",
+    price: "$49/month",
+    features: [
+      "Access to all features",
+      "Priority email support",
+      "Community access",
+      "5 projects",
+      "50 GB storage",
+      "Custom domain",
+      "Analytics dashboard",
+    ],
+    bestvalue: true,
+  },
+  {
+    title: "Enterprise",
+    price: "Contact us",
+    features: [
+      "All Pro features",
+      "Dedicated account manager",
+      "24/7 support",
+      "Unlimited projects",
+      "Unlimited storage",
+      "Custom integrations",
+      "Advanced analytics",
+      "Custom SLAs",
+    ],
+  },
+  {
+    title: "Custom",
+    price: "Contact us",
+    features: [
+      "Tailored solutions",
+      "Flexible pricing",
+      "Custom features",
+      "Dedicated support",
+      "Scalable resources",
+      "Integration with existing systems",
+      "Onboarding and training",
+      "Performance monitoring",
+      "Regular updates and maintenance",
+    ],
+  },
+];
