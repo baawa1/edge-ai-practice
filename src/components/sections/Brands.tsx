@@ -1,15 +1,14 @@
 import Container from "../shared/Container";
 import Title from "../shared/Title";
+import discord from "../../assets/logos/discord.png";
+import openai from "../../assets/logos/openai.png";
+import paypal from "../../assets/logos/paypal.png";
+import slack from "../../assets/logos/slack.png";
+import spotify from "../../assets/logos/spotify.png";
+import uber from "../../assets/logos/uber.png";
+import youtube from "../../assets/logos/youtube.png";
 
-const logos = [
-  "discord",
-  "openai",
-  "paypal",
-  "slack",
-  "spotify",
-  "uber",
-  "youtube",
-];
+const logos = [discord, openai, paypal, slack, spotify, uber, youtube];
 
 const Brands = () => {
   return (
@@ -26,7 +25,7 @@ const Brands = () => {
             >
               <img
                 key={index}
-                src={`src/assets/logos/${logo}.png`}
+                src={logo}
                 alt={`${logo} logo`}
                 width={100}
                 height={60}
