@@ -2,7 +2,7 @@ import Container from "../shared/Container";
 
 const Numbers = () => {
   return (
-    <section className="relative mt-12 md:mt-16">
+    <section className="relative mt-16 md:mt-24">
       <Container className="flex justify-center items-center">
         <div
           className="mx-auto lg:mx-0 p-5 sm:p-4 sm:py-4 max-w-5xl rounded-3xl bg-box-bg
