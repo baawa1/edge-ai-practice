@@ -32,7 +32,7 @@ const Navbar = () => {
             ))}
           </ul>
           <div className="flex items-center justify-center gap-x-2 md:gap-x-4">
-            <ButtonLink href="#get-started" text="Get Started" className="" />
+            <ButtonLink href="#contact" text="Get Started" className="" />
             <div className="min-w-max">
               <button
                 onClick={toggleTheme}
